@@ -1,0 +1,99 @@
+#side-menu {
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#side-menu .side-menu-tab {
+    padding: 10px;
+    color: #285C83;
+    background: #fff;
+}
+
+.container {
+    background: #eee
+}
+
+#side-menu {
+    margin-right: 20px
+}
+
+.content-wrapper {
+    background: #fff;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.content-wrapper>.title {
+    font-size: 25px;
+}
+
+.content-wrapper .js-all-job {
+    margin-top: 20px
+}
+
+.js-jobs {
+    display: table;
+    width: 100%;
+}
+
+.js-jobs td .status {
+    padding: 4px 8px;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.js-jobs td .status.going {
+    color: #28836e;
+}
+
+.js-jobs td .status.expired {
+    color: #f44336;
+}
+
+.js-jobs thead th {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    color: #575757;
+    border-top: 1px solid #ddd;
+}
+
+.js-jobs td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px
+}
+
+.js-jobs td .logo img {
+    height: 32px
+}
+
+.js-jobs td .job-title {
+    padding-left: 20px
+}
+
+.content-wrapper .subtitle {
+    margin-top: 15px;
+    color: #575757;
+    font-size: 14px;
+}
+
+.js-jobs tr:hover {
+    background-color: #eee;
+}
+
+.js-jobs td {
+    border-right: none;
+    color: #575757;
+}
+
+#side-menu .side-menu-tab .title {
+    display: none;
+    width: 100px;
+}
+
+#side-menu .side-menu-tab:hover .title {
+    display: inline-block;
+    padding-left: 7px;
+    font-size: 14px;
+}

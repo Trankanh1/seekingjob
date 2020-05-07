@@ -1,0 +1,67 @@
+.nav-menu {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-menu .title {
+    color: #575757;
+    padding: 10px 0;
+}
+
+#pmenu {
+    padding: 13px 0;
+}
+
+#pmenu .menu .tab span {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#pmenu .menu .tab {
+    padding: 15px 10px;
+}
+
+#pmenu .menu .tab.active {
+    padding: 15px 10px;
+    border-bottom: 3px solid #3b8a44;
+}
+
+.notifications {
+    position: absolute;
+    top: 30px;
+    background: #fff;
+    right: -28px;
+    width: 280px;
+    padding: 15px;
+    display: none;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.notifications.active {
+    display: block
+}
+
+.notifications .title {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #575757;
+}
+
+.notifications .content {
+    line-height: 29px;
+    padding: 10px 0;
+}
+
+.notifications .content span {
+    display: inline-block;
+    margin-left: 10px;
+    color: #666;
+    font-weight: 300;
+}
+
+.notifications .content .more {
+    font-size: 14px;
+    color: #0b81de;
+}

@@ -1,0 +1,383 @@
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+#header {
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+#header .d-flex {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#header .logo {
+    font-size: 33px;
+    font-weight: 600;
+    color: #285C83;
+    letter-spacing: 2px;
+}
+
+#header .search-fm {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+    padding: 11px 20px;
+}
+
+#header .search-fm input {
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    color: #505863;
+}
+
+#header .search-fm .job-title {
+    width: 47%;
+    position: relative;
+}
+
+#header .search-fm .job-title input {
+    font-size: 14px;
+    padding: 10px 23px;
+    color: #505863;
+}
+
+#header .search-fm .location input {
+    font-size: 14px;
+    padding: 10px 23px;
+    color: #505863;
+}
+
+#header .search-fm .job-title .svg {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+
+#header .search-fm .job-title .svg g {
+    stroke: #2196f3;
+}
+
+#header .search-fm .metatype {
+    width: 15%;
+    margin-left: 10px;
+    position: relative;
+}
+
+#header .search-fm .metatype .opts {
+    padding-top: -20px
+}
+
+#header .search-fm .metatype input {
+    font-size: 14px;
+    padding: 10px 23px;
+}
+
+#header .search-fm .metatype .svg {
+    position: absolute;
+    right: 4px;
+    top: 11px;
+    height: 5px;
+}
+
+#header .search-fm .location {
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+#header .search-fm button {
+    padding: 11px 20px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 12px;
+    background: #285C83;
+    color: #fff;
+    font-size: 14px;
+}
+
+#header .noti {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#header .noti .svg {}
+
+#header .avatar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.account {}
+
+.account .main {
+    padding: 15px 0;
+    line-height: 24px;
+}
+
+.account .main .img {
+    width: 40px;
+    height: 40px;
+    background: blueviolet;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.account .main .img .text {
+    color: #fff;
+    position: absolute;
+    top: 17%;
+    right: 13px;
+    font-size: 21px;
+}
+
+.account .main .name {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #575757;
+}
+
+.account .main .title,
+.account .main .location {
+    color: #444;
+}
+
+.account .main .icon {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.account .main {
+    padding: 20px;
+    box-shadow: rgb(196, 199, 204) 0px 0px 2px;
+    border-radius: 3px;
+    height: 200px;
+    line-height: 28px;
+}
+
+.job-recommended .title {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.job-recommended .title .tt {
+    font-weight: 300;
+    color: #575757;
+    margin-top: 5px;
+}
+
+#jobs {
+    display: grid;
+    gap: 16px;
+    grid-auto-rows: 1fr;
+    grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr);
+}
+
+#jobs .item {
+    padding: 10px;
+    box-shadow: rgb(196, 199, 204) 0px 0px 2px;
+    border-radius: 3px;
+}
+
+#job .item:hover {
+    box-shadow: rgba(133, 140, 148, 0.4) 0px 8px 10px, rgb(196, 199, 204) 0px 0px 2px;
+}
+
+#jobs .item:hover {
+    box-shadow: rgba(133, 140, 148, 0.4) 0px 8px 10px, rgb(196, 199, 204) 0px 0px 2px;
+}
+
+#jobs .item .common-info {
+    height: 100%;
+}
+
+#jobs .item .common-info .logo {
+    width: 71px;
+}
+
+#jobs .item .common-info .logo img {
+    height: 40px;
+    width: auto;
+    margin: 0;
+}
+
+#jobs .item .common-info .main {
+    width: 269px;
+    line-height: 24px;
+}
+
+#jobs .item .common-info .main .company-name {
+    font-size: 15px;
+    font-weight: 300;
+    color: #575757;
+}
+
+#jobs .item .common-info .main .job-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#jobs .item .common-info .main .location {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#jobs .item .extra-action {
+    height: 99px;
+}
+
+#jobs .item .common-info .extra-action .time {
+    bottom: 0;
+    font-size: 12px;
+    width: 50px;
+    color: #444;
+}
+
+.recent-research {
+    margin-top: 15px;
+}
+
+.recent-research .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 41px;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr);
+    gap: 16px;
+}
+
+#results .item {
+    box-shadow: rgb(196, 199, 204) 0px 0px 2px;
+    display: flex;
+    padding: 15px;
+    border-radius: 4px;
+    line-height: 30px;
+}
+
+#results .item .result {
+    font-size: 13px;
+    color: #575757;
+}
+
+#results .item .result .count {
+    color: #ff9800;
+}
+
+#results .item:hover {
+    box-shadow: rgba(133, 140, 148, 0.4) 0px 8px 10px, rgb(196, 199, 204) 0px 0px 2px;
+}
+
+#results .item .icon-search {
+    width: 34px;
+}
+
+#footer .container {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#footer .container .main {
+    padding: 27px 0;
+    line-height: 24px;
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+#footer .nav .link {
+    color: #575757;
+    font-weight: 300;
+}
+
+#footer .nav .logo {
+    font-size: 76px;
+    color: #285C83;
+}
+
+#footer .nav .brand-logo span {
+    font-size: 24px;
+    color: #285C83;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#footer .nav .brand-logo .main {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer .copyright {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: #575757;
+}
+
+#footer .copyright .developer {
+    padding: 19px 0;
+}
+
+#footer .copyright .text {
+    padding: 5px 0 20px 0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials .icon {
+    margin-right: 10px;
+}
+
+.job-content .more {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.content .more .text {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.job-content .more .icon {
+    font-size: 21px;
+    vertical-align: middle;
+}
+
+#pmenu .menu .for-employer,
+#pmenu .menu .post-job {
+    margin-right: 20px;
+    font-weight: 500px;
+    color: #575757;
+}
+
+#pmenu .menu .post-job .title {
+    padding-left: 10px;
+}

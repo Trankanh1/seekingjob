@@ -1,0 +1,355 @@
+#add-review {
+    background: #eee;
+}
+
+#add-review .header .content .logo {
+    padding: 10px;
+    font-size: 20px;
+    color: #285C83;
+    font-weight: 600;
+}
+
+#add-review .header {
+    height: 40px;
+    background: #fff
+}
+
+#add-review .header .content {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+#add-review .main-container {
+    background: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#add-review .main-container .title {
+    font-size: 24px;
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+#add-review .content-wrapper {
+    margin-top: 10px;
+}
+
+#add-review .content-wrapper .employer-info>div {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+}
+
+#add-review .content-wrapper .employer-info input {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 230px
+}
+
+#add-review .content-wrapper .rate-experience {
+    margin-top: 18px
+}
+
+#add-review .content-wrapper .rate-experience .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .rate-experience .rate {
+    display: flex;
+    align-content: center;
+    margin: 5px 0
+}
+
+#add-review .content-wrapper .rate-experience .rate .positive.selected span {
+    background: #09aa41;
+    color: #fff
+}
+
+#add-review .content-wrapper .rate-experience .rate .normal.selected span {
+    background: #f6b500;
+    color: #fff
+}
+
+#add-review .content-wrapper .rate-experience .rate .negative.selected span {
+    background: #ec4133;
+    color: #fff
+}
+
+#add-review .content-wrapper .rate-experience .rate input {
+    display: none;
+}
+
+#add-review .content-wrapper .interview-outcome .rating {
+    cursor: pointer;
+}
+
+#add-review .content-wrapper .interview-outcome .rating div:first-child.selected span {
+    background: #eb4133;
+    color: #fff;
+}
+
+#add-review .content-wrapper .interview-outcome .rating div:nth-child(3).selected span {
+    background: #0caa41;
+    color: #fff;
+}
+
+#add-review .content-wrapper .interview-outcome .rating div:nth-child(2).selected span {
+    background: #f6b500;
+    color: #fff;
+}
+
+#add-review .content-wrapper .rate-experience span {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #505863;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#add-review .content-wrapper .job-title {
+    margin-top: 18px;
+}
+
+#add-review .content-wrapper .job-title .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .job-title input {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 300px;
+}
+
+#add-review .content-wrapper .desc-interview-process {
+    margin-top: 18px;
+}
+
+#add-review .content-wrapper .desc-interview-process .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .desc-interview-process textarea {
+    width: 700px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+#add-review .content-wrapper .interview-question {
+    margin-top: 20px
+}
+
+#add-review .content-wrapper .interview-question .questions .row {}
+
+#add-review .content-wrapper .interview-question .questions .row textarea {
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+#add-review .content-wrapper .btn-add-question {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+#add-review .content-wrapper .interview-difficulty {
+    margin-top: 18px;
+}
+
+#add-review .content-wrapper .interview-difficulty .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .interview-difficulty select {
+    height: 38px;
+    font-size: 14px;
+    width: 200px;
+}
+
+#add-review .content-wrapper .interview-outcome {
+    margin-top: 18px;
+}
+
+#add-review .content-wrapper .interview-outcome .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .interview-outcome .rating {
+    display: flex;
+    align-content: center;
+    margin: 5px 0;
+}
+
+#add-review .content-wrapper .interview-outcome .rating input {
+    display: none
+}
+
+#add-review .content-wrapper .interview-outcome .rating span {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #505863;
+    margin-right: 10px;
+}
+
+#add-review .content-wrapper .interview-place {
+    margin-top: 18px;
+}
+
+#add-review .content-wrapper .interview-place .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .interview-place input {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 300px;
+}
+
+#add-review .content-wrapper .btn-submit {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#add-review .content-wrapper .btn-submit button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    background: #37a637;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#js-companies .item .main .side-right .rating i {
+    padding: 7px;
+    background: #5da7de;
+    display: inline-block;
+    border-radius: 2px
+}
+
+#js-companies .item .main .side-right .rating {
+    display: block;
+    text-align: right;
+}
+
+#js-companies .item .main .side-right .number {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #999;
+    font-size: 14px
+}
+
+#add-review .content-wrapper .interview_difficulty {
+    margin-top: 20px;
+}
+
+#add-review .content-wrapper .interview_difficulty .title {
+    font-weight: 600;
+    color: #505863;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#add-review .content-wrapper .interview_difficulty select {
+    font-size: 14px;
+    padding: 10px;
+    height: 35px;
+    width: 200px
+}
+
+#js-companies .item.interview .main {
+    line-height: 33px;
+    color: #575757;
+    font-size: 16px;
+}
+
+#js-companies .item.interview .question {
+    font-size: 20px;
+    color: #111;
+}
+
+#add-review .content-wrapper .rate-company .star {
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    height: 10px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #ddd;
+}
+
+#add-review .content-wrapper .rate-company .star:hover,
+#add-review .content-wrapper .rate-company .star.selected {
+    color: #fff;
+    background-color: #285c83;
+}
+
+#add-review .content-wrapper .rate-company .rate {
+    display: flex;
+    align-content: center;
+    margin: 5px 0;
+}

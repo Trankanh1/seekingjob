@@ -1,0 +1,55 @@
+#overview .box {
+    width: 300px;
+    border: 1px solid #09aa4142;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+#overview {
+    padding: 50px 100px
+}
+
+#overview .box .icon {
+    color: #285C83;
+}
+
+#overview .box .icon {
+    font-size: 30px
+}
+
+#overview .box {
+    line-height: 30px;
+}
+
+#overview .box .title {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#overview .box .number {
+    font-size: 20px;
+    color: #575757;
+    font-weight: 600;
+}
+
+#overview .box label {
+    margin-top: 15px;
+    color: #575757;
+    font-size: 14px;
+}
+
+#overview .box .number .text {
+    font-size: 14px;
+    color: #111;
+    font-weight: 300;
+}
+
+#overview .box .number .percent {
+    font-size: 15px;
+    color: green;
+    position: absolute;
+    top: 0px;
+    left: 45px;
+}

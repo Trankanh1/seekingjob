@@ -1,0 +1,181 @@
+body a {
+    color: #575757;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-flex-end {
+    align-items: flex-end;
+}
+
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.containter-max-width {
+    max-width: 1280px;
+    margin-top: 15px
+}
+
+.mr-auto {
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    margin-top: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.sep-20 {
+    height: 20px;
+}
+
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-6 {
+    padding: 0 8px;
+}
+
+.col-lg-2 {
+    width: 16.67%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+}
+
+.col-lg-5 {
+    width: 50%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-8 {
+    width: 65.67%;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-10 {
+    width: 83.33%;
+}
+
+.ponter {
+    cursor: pointer;
+}
+
+.url {
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.nopad {
+    padding: 0;
+}
+
+.opts {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.opts .opt {
+    font-size: 14px;
+    padding: 12px 11px;
+    cursor: pointer;
+}
+
+.opts .opt:hover {
+    background-color: #dfdfdf;
+}
+
+.opts {
+    border-radius: 3px;
+    padding-top: 10px;
+    background: #fff;
+    width: 162px;
+    display: none;
+    position: absolute;
+}
+
+.mopt:hover>.opts {
+    display: block;
+}
+
+.mopt:hover>.opts {
+    display: block;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

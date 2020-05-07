@@ -1,0 +1,108 @@
+#box-modal {
+    position: relative;
+}
+
+#modal-signin {
+    display: none;
+}
+
+#apdialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    overflow: auto;
+    z-index: 999999;
+}
+
+#apdialog #modal-signin {
+    display: block;
+}
+
+#modal-signin {
+    background: #fff;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 43%;
+}
+
+#modal-signin .wrapper {
+    padding: 10px 20px;
+}
+
+#modal-signin .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 20px;
+}
+
+#modal-signin .content {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+#modal-signin .content input {
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 18px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#modal-signin .forgot-psw {
+    margin-top: 12px;
+}
+
+#modal-signin .btn-signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.btn-signin,
+.btn-signup {
+    cursor: pointer;
+    padding: 20px 20px;
+    background: rgb(24, 97, 191);
+    color: #fff;
+    width: 123px;
+    height: 30px;
+    font-size: 14px;
+    margin: 0 autoau;
+    margin: 0 auto;
+    line-height: 1px;
+    border-radius: 3px;
+}
+
+#modal-signin .btn-google {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#modal-signin .btn-google .svg {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+#modal-signin .btn-close {
+    display: inline-block;
+    float: right;
+    color: #575757;
+}
+
+#modal-signin .sign-up,
+#modal-signin .sign-in {
+    margin-top: 15px;
+    font-size: 13px;
+}
